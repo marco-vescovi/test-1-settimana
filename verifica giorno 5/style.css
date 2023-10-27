@@ -1,0 +1,124 @@
+body {
+  margin: auto;
+}
+h1,h2,h4,h5,h6{
+  color: #25a2c3; font-family: 'Montserrat', sans-serif;
+}
+section p {
+  color: #000;
+  text-decoration: none;
+}
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+width: 990px; 
+}
+main article {
+width: 100%; 
+}
+main section{
+  width: 100%;
+}
+header {
+  max-width: 100%;
+  padding: 20px;
+  height: 180px;
+  width: 980px;
+  background-color: #000; /* Sfondo nero */
+}
+header img{
+ margin-left: 300px;
+ margin-top: 40px;
+}
+.box {
+  margin-bottom: 100px;
+  padding: 35px;
+  background-image: url('banner.jpg'); /* Assicurati di specificare il percorso corretto dell'immagine */
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+.box p{
+  text-decoration: none;
+  color: #000;
+}
+.notebook{
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 50%;
+}
+.cerchio {
+  border-radius: 50%; /* Imposta il bordo a 50% per ottenere la forma circolare */
+}
+.epicodearancione{
+  width: 1000px;
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #f04c2f;
+}
+.epicodearancione p,h3{
+  color: white;
+}
+.articolobox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 900px;
+    border: 1px solid #888888; /* 2px di spessore, solido (border-style), colore grigio (#888888) */
+}
+.articolobox p{
+  color: #000;
+  text-decoration: none;
+}
+h1{
+  color: #21a8c8;
+}
+button {
+  background-color:#f04c2f  ; /* Imposta il colore di sfondo su arancione */
+  color: white; /* Imposta il colore del testo su bianco o un colore leggibile */
+  padding: 30px 50px;
+  border: none;
+  cursor: pointer;
+}
+article{
+  text-align: center; /* Centra il contenuto all'interno di ciascuna sezione */
+  max-width: 100%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 990px;
+  height: 600px;
+  text-align: center;
+  background-color: #24a8cc;
+}
+.h2footer{
+  font-size: 58px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+footer a,p{
+   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+footer p, footer  {
+  font-size: 38px; /* Cambia 18px con la dimensione desiderata */
+}
+
+footer a {
+  font-size: 38px; /* Cambia 18px con la dimensione desiderata per i link */
+  color: #c8e7f0; /* Cambia il colore dei link se necessario */
+}
+.via{
+  text-decoration: none;
+}
